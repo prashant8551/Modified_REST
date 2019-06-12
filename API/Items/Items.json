@@ -1,0 +1,45 @@
+"........Add Items Details..........",
+[
+    {
+        "i_id": 1,
+        "item_price": "999",
+        "item_name": "Senizer Headphone",
+        "item_quantity": "14"
+    },
+    {
+        "i_id": 2,
+        "item_price": "2300",
+        "item_name": "Boat Headphone",
+        "item_quantity": "19"
+    },
+    {
+        "i_id": 3,
+        "item_price": "28000",
+        "item_name": "Apple-Mobile-6S",
+        "item_quantity": "16"
+    },
+    {
+        "i_id": 4,
+        "item_price": "22000",
+        "item_name": "Samsung-Mobile-A2",
+        "item_quantity": "9"
+    },
+    {
+        "i_id": 5,
+        "item_price": "17000",
+        "item_name": "RemMI-Note7_Pro",
+        "item_quantity": "9"
+    },
+    {
+        "i_id": 6,
+        "item_price": "1200",
+        "item_name": "JBL-Earphone",
+        "item_quantity": "30"
+    },
+    {
+        "i_id": 7,
+        "item_price": "17000",
+        "item_name": "Honor v9",
+        "item_quantity": "12"
+    }
+],
