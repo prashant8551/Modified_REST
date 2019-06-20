@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/RestAPI" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/RestAPI/API" vcs="Git" />
-    <mapping directory="E:/Blog/BlogDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

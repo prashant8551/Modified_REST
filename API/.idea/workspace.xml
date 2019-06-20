@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db857cd-5134-4754-a092-c595f8e4c8b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RestAPI/API/orders/test_get_request_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/.idea/RestAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/.idea/RestAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/Items/Items.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/Items/Items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/Items/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/Items/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/bill.png" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/bill.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/customers/Customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/customers/Customers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/customers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/customers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/customers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/customers/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/demo.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/models/create_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/models/create_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/orders/Orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/orders/Orders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/orders/serilizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/orders/serilizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/orders/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/orders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAPI/API/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/API/users/views.py" afterDir="false" />
+    <list default="true" id="e53d6352-70f6-4119-ae9e-ffb03acc7418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/orders/test_get_request_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/Items.json" beforeDir="false" afterPath="$PROJECT_DIR$/Items/Items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Items/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bill.png" beforeDir="false" afterPath="$PROJECT_DIR$/bill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/Customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/customers/Customers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/customers/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/customers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/create_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/create_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/Orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders/Orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/serilizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/serilizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,32 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/test_get_request_data.py">
+        <entry file="file://$PROJECT_DIR$/orders/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="9261">
+              <caret line="457" column="31" selection-start-line="457" selection-start-column="31" selection-end-line="457" selection-end-column="31" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/views.py">
+        <entry file="file://$PROJECT_DIR$/customers/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state>
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customers/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="264" column="33" selection-start-line="264" selection-start-column="33" selection-end-line="264" selection-end-column="33" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -64,33 +62,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/helper.py">
+        <entry file="file://$PROJECT_DIR$/Items/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="186" column="42" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/testorders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/mock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22911">
+              <caret line="1096" selection-start-line="1096" selection-end-line="1096" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Items/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders/Orders.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/views.py">
+        <entry file="file://$PROJECT_DIR$/orders/serilizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/serilizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state>
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -98,56 +130,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/serializers.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RestAPI/API" />
-  </component>
-  <component name="HierarchyBrowserManager">
-    <option name="SORT_ALPHABETICALLY" value="true" />
-    <option name="SCOPE" value="This Class" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RestAPI/API/app.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/runtime.txt" />
-        <option value="$PROJECT_DIR$/RestAPI/API/uswgi.ini" />
-        <option value="$PROJECT_DIR$/RestAPI/API/Procfile" />
-        <option value="E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/__init__.py" />
-        <option value="E:/Blog/BlogDemo/flask-tutorial/Procfile" />
-        <option value="$PROJECT_DIR$/RestAPI/API/models/db.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/Items/serilizer.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/Items/views.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/customers/views.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/orders/test_get_request_data.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/users/views.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/orders/urls.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/models/create_models.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/manage.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/customers/urls.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/orders/testorders.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/testorders.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/auth/views.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/orders/serilizer.py" />
-        <option value="$PROJECT_DIR$/RestAPI/API/orders/views.py" />
+        <option value="$PROJECT_DIR$/orders/testorders.py" />
+        <option value="$PROJECT_DIR$/orders/views.py" />
+        <option value="$PROJECT_DIR$/customers/views.py" />
       </list>
     </option>
   </component>
@@ -157,33 +150,31 @@
     <option name="width" value="687" />
     <option name="height" value="887" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
-      <autoscrollToSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/Blog/BlogDemo" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="API" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="API" />
-      </console-settings>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\API\RestAPI\API" />
+      <recent name="C:\API\RestAPI\API\orders" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,143 +189,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testorders">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\prashant.mali\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestAPI/API" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RestAPI/API/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testorders" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestAPI/API/orders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\API\RestAPI\API\testorders.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_get_request_data.TestGet_request_data.test_get_request_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestAPI/API/orders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_request_data.TestGet_request_data.test_get_request_data&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_get_request_data.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestAPI/API/orders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestAPI/API/orders/test_get_request_data.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.testorders" />
-        <item itemvalue="Python tests.Unittests in test_get_request_data.py" />
-        <item itemvalue="Python tests.Unittests for test_get_request_data.TestGet_request_data.test_get_request_data" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3db857cd-5134-4754-a092-c595f8e4c8b4" name="Default Changelist" comment="" />
-      <created>1560314123225</created>
+      <changelist id="e53d6352-70f6-4119-ae9e-ffb03acc7418" name="Default Changelist" comment="" />
+      <created>1560948083612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560314123225</updated>
+      <updated>1560948083612</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_test_get_request_data_TestGet_request_data_test_get_request_data - 2019.06.19 at 12h 32m 17s.xml">
-      <configuration name="Unittests for test_get_request_data.TestGet_request_data.test_get_request_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_get_request_data_py - 2019.06.19 at 12h 35m 13s.xml">
-      <configuration name="Unittests in test_get_request_data.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_get_request_data_py - 2019.06.19 at 12h 41m 47s.xml">
-      <configuration name="Unittests in test_get_request_data.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_get_request_data_py - 2019.06.19 at 12h 42m 15s.xml">
-      <configuration name="Unittests in test_get_request_data.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_get_request_data_py - 2019.06.19 at 12h 42m 35s.xml">
-      <configuration name="Unittests in test_get_request_data.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_get_request_data_py - 2019.06.19 at 14h 40m 14s.xml">
-      <configuration name="Unittests in test_get_request_data.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25285172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49936628" visible="true" weight="0.31388888" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006337" side_tool="true" weight="0.20972222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49936628" visible="true" weight="0.20972222" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006337" side_tool="true" weight="0.5236111" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,50 +226,26 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/users/serilizer.py">
+    <entry file="file://$PROJECT_DIR$/Items/serilizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state>
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Customers.json" />
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/customers/Customers.json">
+    <entry file="file://$PROJECT_DIR$/orders/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="9261">
+          <caret line="457" column="31" selection-start-line="457" selection-start-column="31" selection-end-line="457" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/runtime.txt" />
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/uswgi.ini" />
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/flask-tutorial/venv/Lib/site-packages/pytz/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5070">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/auth.py" />
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/db.py" />
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/demoblueprint.py" />
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/logdemo.py" />
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/Procfile" />
-    <entry file="file://E:/Blog/BlogDemo/flask-tutorial/flaskalchemy/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/users/urls.py">
+    <entry file="file://$PROJECT_DIR$/customers/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -394,216 +254,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/users/views.py">
+    <entry file="file://$PROJECT_DIR$/customers/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+        <state relative-caret-position="143">
+          <caret line="264" column="33" selection-start-line="264" selection-start-column="33" selection-end-line="264" selection-end-column="33" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/Orders.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/bill.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/models/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/models/create_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/BlogDemo/flask-tutorial/flaskalchemy/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/Items.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/serilizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/customers/serilizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/customers/urls.py">
+    <entry file="file://$PROJECT_DIR$/orders/testorders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/customers/views.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/mock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1079">
-          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22911">
+          <caret line="1096" selection-start-line="1096" selection-end-line="1096" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/test_get_request_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/testorders.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/Items/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/helper.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/app.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/serilizer.py">
+    <entry file="file://$PROJECT_DIR$/Items/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/Orders.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/serilizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestAPI/API/orders/views.py">
+    <entry file="file://$PROJECT_DIR$/Items/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="186" column="42" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

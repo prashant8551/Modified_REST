@@ -1,0 +1,183 @@
+"........Sale Items Details..........",
+[
+    {
+        "sale_quantity": "2",
+        "id": 9227378,
+        "item": {
+            "item_name": "Xiomi K 20",
+            "item_price": "25000",
+            "item_quantity": "8",
+            "i_id": 10
+        },
+        "i_id": 10,
+        "customer": {
+            "c_email": "avinash.kumar@nitorinfotech.com",
+            "customer_name": "Avinash",
+            "c_address": "Patna",
+            "c_mobileno": 8865048253,
+            "c_id": "5"
+        },
+        "c_id": 5,
+        "sale_date": "19-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 5700784,
+        "item": {
+            "item_name": "Samsung-Mobile-A2",
+            "item_price": "22000",
+            "item_quantity": "9",
+            "i_id": 4
+        },
+        "i_id": 4,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "14-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 2500841,
+        "item": {
+            "item_name": "Apple-Mobile-6S",
+            "item_price": "28000",
+            "item_quantity": "13",
+            "i_id": 3
+        },
+        "i_id": 3,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 7800613,
+        "item": {
+            "item_name": "Apple-Mobile-6S",
+            "item_price": "28000",
+            "item_quantity": "13",
+            "i_id": 3
+        },
+        "i_id": 3,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 5207915,
+        "item": {
+            "item_name": "Apple-Mobile-6S",
+            "item_price": "28000",
+            "item_quantity": "13",
+            "i_id": 3
+        },
+        "i_id": 3,
+        "customer": {
+            "c_email": "siddhi.khole@nitorinfotech.com",
+            "customer_name": "Siddhi",
+            "c_address": "pune",
+            "c_mobileno": 8149506028,
+            "c_id": "4"
+        },
+        "c_id": 4,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 1406307,
+        "item": {
+            "item_name": "Apple-Mobile-6S",
+            "item_price": "28000",
+            "item_quantity": "13",
+            "i_id": 3
+        },
+        "i_id": 3,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 7960591,
+        "item": {
+            "item_name": "Samsung-Mobile-A2",
+            "item_price": "22000",
+            "item_quantity": "9",
+            "i_id": 4
+        },
+        "i_id": 4,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 1389681,
+        "item": {
+            "item_name": "Samsung-Mobile-A2",
+            "item_price": "22000",
+            "item_quantity": "9",
+            "i_id": 4
+        },
+        "i_id": 4,
+        "customer": {
+            "c_email": "manishfartyal9090@gmail.com",
+            "customer_name": "Manish",
+            "c_address": "Dehradun",
+            "c_mobileno": 8865048253,
+            "c_id": "2"
+        },
+        "c_id": 2,
+        "sale_date": "13-06-2019"
+    },
+    {
+        "sale_quantity": "1",
+        "id": 4636650,
+        "item": {
+            "item_name": "Samsung-Mobile-A2",
+            "item_price": "22000",
+            "item_quantity": "9",
+            "i_id": 4
+        },
+        "i_id": 4,
+        "customer": {
+            "c_email": "prashant.mali@nitorinfotech.com",
+            "customer_name": "Prashant",
+            "c_address": "pune",
+            "c_mobileno": 8551966318,
+            "c_id": "3"
+        },
+        "c_id": 3,
+        "sale_date": "13-06-2019"
+    }
+],
