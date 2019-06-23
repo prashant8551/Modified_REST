@@ -1,6 +1,6 @@
 from flask_restful import Resource
 from flask import request,Response,jsonify
-# from flask_restful import Api,Resource, fields
+#from flask_restful import Api,Resource, fields
 from orders.serilizer import OrderSchema,BillSchema
 from Items.serilizer import ItemSchema
 from models.db import SalesItems,Customer,Items,Bill
@@ -441,10 +441,7 @@ class SaleOrderResource(Resource):
                 de = int(str(end.split('-')[2]))
                 start = date(year=y, month=m, day=d)
                 end = date(year=ye, month=me, day=de)
-                #sale_order = SalesItems.query.filter(SalesItems.sale_date >= end).all()
-                #sale_order = SalesItems.query.filter(and_(SalesItems.sale_date >= start, SalesItems.sale_date <= end))
 
-                #sale_order = SalesItems.query.filter(SalesItems.sale_date.between(start, end))
                 sale_order = SalesItems.query.filter(and_(func.date(SalesItems.sale_date) >= start),\
                                                      func.date(SalesItems.sale_date) <= end)
 

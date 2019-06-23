@@ -10,6 +10,10 @@ from werkzeug.exceptions import NotFound
 from sqlalchemy.exc import DatabaseError, IntegrityError
 from sqlalchemy import desc
 
+class Error(Exception):
+    pass
+class InvalidQuantity(Error):
+    pass
 items_schema = ItemSchema(many=True)
 item_schema = ItemSchema()
 
@@ -70,19 +74,28 @@ class ItemResource(Resource):
 
         if item_id:
             item = Items.query.filter_by(i_id=item_id).first()
-            if not item:
-                return json.dumps({"err_msg": "item does not exit"})
+
+            if item.item_quantity == str(0):
+                pass
             else:
-                result_obj = item_schema.dump(item).data
-                return {'status': 'success', 'Item': result_obj}, 200
+                if not item:
+                    return json.dumps({"err_msg": "item does not exit"})
+                else:
+                    result_obj = item_schema.dump(item).data
+                    return {'status': 'success', 'Item': result_obj}, 200
         else:
             items = Items.query.order_by(desc(Items.purchase_date)).all()
-            items = items_schema.dump(items).data
+            for item in items:
+                if str(item.item_quantity) == str(0):
+                    return "null"
+                else:
+                    items = items_schema.dump(items).data
+                    return {'status': 'success', 'Items': items}, 200
             with open("Items/Items.json", "w") as f:
                 print("Success")
                 f.write(json.dumps("........Add Items Details..........") \
                 + ",\n" + json.dumps(items, indent=4,sort_keys=False) + ",\n")
-            return {'status': 'success', 'Items': items}, 200
+
 
     def post(self):
 
@@ -106,18 +119,24 @@ class ItemResource(Resource):
         if errors:
             return {"status": "error", "data": errors}, 422
 
-        item_name = data['item_name']
-        item_quantity = data['item_quantity']
-        item_price = data['item_price']
+        try:
+            item_name = data['item_name']
+            item_quantity = data['item_quantity']
+            item_price = data['item_price']
+            if item_quantity == str(0):
+                raise Exception()
+            else:
+                item = Items(item_name, item_quantity, item_price)
+                db.session.add(item)
+                db.session.commit()
+                result_obj = item_schema.dump(item).data
+                response_obj.data = json.dumps({"status":"success","Item":result_obj})
 
-        item = Items(item_name,item_quantity,item_price)
-        db.session.add(item)
-        db.session.commit()
-
-        result_obj = item_schema.dump(item).data
-        response_obj.data = json.dumps({"status":"success","Item":result_obj})
+        except Exception:
+            response_obj.data = json.dumps({"msg": "please enter greater than zero quantity"})
 
         return response_obj
+
 
     def put(self,item_id):
         """
@@ -149,9 +168,12 @@ class ItemResource(Resource):
                         "err_msg": "item id doesn't exists!"
                     })
                 else:
+
                     item.item_name = data['item_name']
                     item.item_price = data['item_price']
                     item.item_quantity = data['item_quantity']
+                    if item.item_quantity == str(0):
+                        raise InvalidQuantity()
                     db.session.add(item)
                     db.session.commit()
                     result_obj = item_schema.dump(item).data
@@ -159,6 +181,8 @@ class ItemResource(Resource):
                     print("Item edited:")
                     response_obj.data = json.dumps({"status": "success", "Item": result_obj})
 
+            except InvalidQuantity:
+                response_obj.data = json.dumps({"msg": "Invalid Quantity"})
             except NotFound as ne:
                 logger.error("Edit User: Error while editing user record. " + str(ne))
                 response_obj.data = json.dumps({

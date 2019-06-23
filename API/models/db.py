@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask_user import UserMixin
 from werkzeug.security import generate_password_hash
-from app import db,ma
+from app import db
 from sqlalchemy import CheckConstraint
 import enum
 
@@ -60,7 +60,8 @@ class Items(db.Model):
     modified_date=db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
     sales = db.relationship("SalesItems", backref=db.backref("items"))
 
-    __table_args__ = (CheckConstraint(item_quantity > 0),{})
+    __table_args__ = (CheckConstraint(item_quantity >= 0),{})
+
     def __init__(self,item_name,item_quantity,item_price):
         self.item_name=item_name
         self.item_name=item_name
@@ -75,7 +76,7 @@ class Bill(db.Model):
     i_id = db.Column(db.Integer(), db.ForeignKey('customers.c_id', ondelete='CASCADE'))
     c_id = db.Column(db.Integer(), db.ForeignKey('items.i_id', ondelete='CASCADE'))
     o_id = db.Column(db.Integer(), db.ForeignKey('sales_items.id', ondelete='CASCADE'))
-    bill_amount = db.Column(db.String(255),nullable=False)
+    bill_amount = db.Column(db.String(255), nullable=False)
     bill_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
 
     def __init__(self,c_id,i_id,o_id,bill_amount):

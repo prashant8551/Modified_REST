@@ -1,57 +1,75 @@
 "........Register Customers Details..........",
 [
     {
-        "c_address": "Nasik",
+        "customer_name": "Abhinav",
         "c_id": 1,
         "c_mobileno": 8149506028,
         "c_email": "abhinavpatole@gmail.com",
-        "customer_name": "Abhinav",
         "modified_date": "10-06-19",
-        "register_date": "10-06-19"
+        "register_date": "10-06-19",
+        "c_address": "Nasik"
     },
     {
-        "c_address": "Dehradun",
+        "customer_name": "Manish",
         "c_id": 2,
         "c_mobileno": 8865048253,
         "c_email": "manishfartyal9090@gmail.com",
-        "customer_name": "Manish",
         "modified_date": "10-06-19",
-        "register_date": "10-06-19"
+        "register_date": "10-06-19",
+        "c_address": "Dehradun"
     },
     {
-        "c_address": "pune",
+        "customer_name": "Prashant",
         "c_id": 3,
         "c_mobileno": 8551966318,
         "c_email": "prashant.mali@nitorinfotech.com",
-        "customer_name": "Prashant",
         "modified_date": "10-06-19",
-        "register_date": "10-06-19"
+        "register_date": "10-06-19",
+        "c_address": "pune"
     },
     {
-        "c_address": "pune",
+        "customer_name": "Siddhi",
         "c_id": 4,
         "c_mobileno": 8149506028,
         "c_email": "siddhi.khole@nitorinfotech.com",
-        "customer_name": "Siddhi",
         "modified_date": "11-06-19",
-        "register_date": "11-06-19"
+        "register_date": "11-06-19",
+        "c_address": "pune"
     },
     {
-        "c_address": "Patna",
+        "customer_name": "Avinash",
         "c_id": 5,
         "c_mobileno": 8865048253,
         "c_email": "avinash.kumar@nitorinfotech.com",
-        "customer_name": "Avinash",
         "modified_date": "11-06-19",
-        "register_date": "11-06-19"
+        "register_date": "11-06-19",
+        "c_address": "Patna"
     },
     {
-        "c_address": "Pune",
+        "customer_name": "Gautam",
         "c_id": 6,
         "c_mobileno": 8865048253,
         "c_email": "gautam.patil@nitorinfotech.com",
-        "customer_name": "Gautam",
         "modified_date": "12-06-19",
-        "register_date": "12-06-19"
+        "register_date": "12-06-19",
+        "c_address": "Pune"
+    },
+    {
+        "customer_name": "Pratik",
+        "c_id": 7,
+        "c_mobileno": 8149506028,
+        "c_email": "pratik.mali@gmail.com",
+        "modified_date": "20-06-19",
+        "register_date": "20-06-19",
+        "c_address": "Jalgaon"
+    },
+    {
+        "customer_name": "Pratik Mali",
+        "c_id": 9,
+        "c_mobileno": 8149506028,
+        "c_email": "prashantdmali@gmail.com",
+        "modified_date": "20-06-19",
+        "register_date": "20-06-19",
+        "c_address": "Jalgaon"
     }
 ],
